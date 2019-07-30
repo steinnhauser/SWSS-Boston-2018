@@ -1,0 +1,146 @@
+#              ************************************
+#              *****    GLOBAL ATTRIBUTES    ******
+#              ************************************
+#
+#     PROJECT                         NSSDC
+#     DISCIPLINE                      Space Physics>Interplanetary Studies
+#     SOURCE_NAME                     OMNI (1AU IP Data)>Merged 1 Hour Interplantary OMNI data
+#     DATA_TYPE                       H0>Definitive Hourly
+#     DESCRIPTOR                      IMF, Plasma, Indices, Energetic Proton Flux
+#     DATA_VERSION                    1
+#     TITLE                           Near-Earth Heliosphere Data (OMNI)
+#     TEXT                            Hourly averaged definitive multispacecraft interplanetary parameters data
+#                                     OMNI Data Documentation: https://omniweb.gsfc.nasa.gov/html/ow_data.html
+#                                     Additional data access options available at  SPDF's OMNIWeb Service: https://omniweb.gsfc.nasa.gov/ow.h
+#                                     COHOWeb-formatted OMNI_M merged magnetic field and plasma data http://cohoweb.gsfc.nasa.gov/           
+#                                     Recent OMNI 1-HR Updates News: https://omniweb.gsfc.nasa.gov/html/ow_news.html
+#     MODS                            created August 2003;
+#                                     conversion to ISTP/IACG CDFs via SKTEditor Feb 2000
+#                                     Time tags in CDAWeb version were modified in March 2005 to use the
+#                                     CDAWeb convention of having mid-average time tags rather than OMNI's
+#                                     original convention of start-of-average time tags.
+#     LOGICAL_FILE_ID                 omni2_h0_mrg1hr_00000000_v01
+#     PI_NAME                         J.H. King, N. Papitashvili
+#     PI_AFFILIATION                  ADNET, NASA GSFC
+#     GENERATION_DATE                 Ongoing
+#     ACKNOWLEDGEMENT                 NSSDC
+#     ADID_REF                        NSSD0110
+#     RULES_OF_USE                    Public
+#     INSTRUMENT_TYPE                 Plasma and Solar Wind
+#                                     Magnetic Fields (space)
+#                                     Particles (space)
+#                                     Electric Fields (space)
+#                                     Activity Indices
+#     GENERATED_BY                    King/Papitashvili
+#     TIME_RESOLUTION                 1 hour
+#     LOGICAL_SOURCE                  omni2_h0_mrg1hr
+#     LOGICAL_SOURCE_DESCRIPTION      OMNI Combined, Definitive, Hourly IMF and Plasma Data, and Energetic Proton                            
+#     LOGICAL_SOURCE_DESCRIPTION       Fluxes, Time-Shifted to the Nose of the Earth's Bow Shock, plus Solar and Magnetic                    
+#                                      Indices                                                                                               
+#     LINK_TITLE                      OMNI Data documentation
+#                                     SPDF's OMNIWeb Service
+#                                     COHOWeb-formatted OMNI_M merged magnetic field and plasma data
+#                                     Release Notes
+#     HTTP_LINK                       https://omniweb.gsfc.nasa.gov/html/ow_data.html
+#                                     https://omniweb.gsfc.nasa.gov/ow.html
+#                                     http://cohoweb.gsfc.nasa.gov/
+#                                     https://omniweb.gsfc.nasa.gov/html/ow_news.html
+#     ALT_LOGICAL_SOURCE              Combined_OMNI_1AU-MagneticField-Plasma-Particles_mrg1hr_1hour_cdf
+#     MISSION_GROUP                   OMNI (Combined 1AU IP Data; Magnetic and Solar Indices)
+#                                     ACE
+#                                     Wind
+#                                     IMP (All)
+#                                     !___Interplanetary Data near 1 AU
+#     SPASE_DATASETRESOURCEID         spase://VMO/NumericalData/OMNI/PT1H
+#     CDFMAJOR                        ROW_MAJOR
+#
+#              ************************************
+#              ****  RECORD VARYING VARIABLES  ****
+#              ************************************
+#
+#  1. Time_at_center_of_hour
+#  2. 1AU IP Magnitude of average field vector (nT)
+#  3. 1AU IP Ion number density (per cc)
+#  4. 1AU IP plasma flow speed (km/s)
+#  5. Daily sunspot number V2, from  http://sidc.oma.be/silso/datafiles/ (1963/001-2018/151)
+#  6. Kp - 3-hour Kp*10 (Kp=1-,1,1+ corresponds to 7,10,13), fromNGDC (1963/001-2018/135)
+#  7. Dst - 1-hour Dst index (1963/001-2014/366), Provisional Dst (2015/001-2016/366), Quick-look Dst (2017/001-2018/151), from WDC Kyoto
+#  8. AL - 1-hour AL-index, from WDC Kyoto (1963/001-1988/182), Provisional (1990/001-2018/059), from WDC Kyoto
+#
+TIME_AT_CENTER_OF_HOUR  1AU_IP_MAG_AVG_B-VECTOR 1AU_IP_N_(ION) 1AU_IP_PLASMA_SPEED DAILY_SUNSPOT_NO 3-H_KP*10 1-H_DST 1-H_AL-INDEX
+dd-mm-yyyy hh:mm:ss.ms                       nT         Per_cc                Km/s                                 nT           nT
+14-07-2000 00:30:00.000                 5.10000        2.80000             606.000              236        30     -30         -279
+14-07-2000 01:30:00.000                 4.20000        3.40000             611.000              236        30     -21         -245
+14-07-2000 02:30:00.000                 3.70000        3.70000             615.000              236        30     -13         -264
+14-07-2000 03:30:00.000                 2.80000        3.40000             616.000              236        30     -15         -155
+14-07-2000 04:30:00.000                 2.50000        2.70000             614.000              236        30     -21         -140
+14-07-2000 05:30:00.000                 3.90000        2.50000             607.000              236        30     -20         -275
+14-07-2000 06:30:00.000                 3.40000        2.50000             591.000              236        33     -24         -321
+14-07-2000 07:30:00.000                 2.40000        2.50000             598.000              236        33     -18         -148
+14-07-2000 08:30:00.000                 3.50000        2.50000             585.000              236        33     -18          -66
+14-07-2000 09:30:00.000                 3.60000        2.60000             584.000              236        40     -18         -132
+14-07-2000 10:30:00.000                 4.80000        2.80000             594.000              236        40     -18         -422
+14-07-2000 11:30:00.000                 2.70000        2.70000             593.000              236        40     -24         -482
+14-07-2000 12:30:00.000                 3.30000        2.50000             573.000              236        40     -28         -329
+14-07-2000 13:30:00.000                 4.30000        2.30000             575.000              236        40     -24         -188
+14-07-2000 14:30:00.000                 4.20000        2.30000             580.000              236        40     -20         -203
+14-07-2000 15:30:00.000                 5.70000        4.90000             670.000              236        73      -8         -363
+14-07-2000 16:30:00.000                 7.60000        6.70000             735.000              236        73     -10         -390
+14-07-2000 17:30:00.000                 8.50000        16.7000             767.000              236        73      -2         -505
+14-07-2000 18:30:00.000                 8.70000        24.3000             778.000              236        67       1        -1164
+14-07-2000 19:30:00.000                 9.30000        26.6000             782.000              236        67       2         -864
+14-07-2000 20:30:00.000                 7.80000        22.2000             777.000              236        67     -15         -517
+14-07-2000 21:30:00.000                 2.00000        12.5000             765.000              236        47     -25         -365
+14-07-2000 22:30:00.000                 4.80000        15.6000             754.000              236        47     -24         -171
+14-07-2000 23:30:00.000                 4.40000        14.9000             738.000              236        47     -29         -151
+15-07-2000 00:30:00.000                 3.50000        10.9000             745.000              213        30     -34         -167
+15-07-2000 01:30:00.000                 4.80000        10.7000             719.000              213        30     -26          -97
+15-07-2000 02:30:00.000                 7.50000        5.80000             741.000              213        30     -26         -167
+15-07-2000 03:30:00.000                 6.70000        4.30000             721.000              213        37     -33         -273
+15-07-2000 04:30:00.000                 7.30000        3.30000             758.000              213        37     -29         -327
+15-07-2000 05:30:00.000                 7.30000        6.30000             745.000              213        37     -18          -84
+15-07-2000 06:30:00.000                 7.40000        5.30000             718.000              213        47     -19          -61
+15-07-2000 07:30:00.000                 8.00000        3.80000             705.000              213        47     -22         -268
+15-07-2000 08:30:00.000                 7.00000        3.20000             660.000              213        47     -33         -475
+15-07-2000 09:30:00.000                 8.00000        3.50000             678.000              213        43     -39         -633
+15-07-2000 10:30:00.000                 9.10000        2.80000             677.000              213        43     -44         -717
+15-07-2000 11:30:00.000                 9.90000        8.70000             694.000              213        43     -42         -794
+15-07-2000 12:30:00.000                 9.50000        7.90000             683.000              213        80     -50         -745
+15-07-2000 13:30:00.000                 9.70000        12.5000             610.000              213        80     -57         -659
+15-07-2000 14:30:00.000                 22.1000        20.1000             866.000              213        80     -24         -769
+15-07-2000 15:30:00.000                 11.4000        18.2000             858.000              213        87       7         -549
+15-07-2000 16:30:00.000                 3.60000        5.10000             1010.00              213        87     -37         -577
+15-07-2000 17:30:00.000                 2.00000        9.80000             991.000              213        87     -46         -799
+15-07-2000 18:30:00.000                 9.40000        15.0000             993.000              213        90     -43        -1089
+15-07-2000 19:30:00.000                 38.0000        20.6000             1000.00              213        90     -61         -797
+15-07-2000 20:30:00.000                 49.4000        5.90000             1040.00              213        90    -198        -1088
+15-07-2000 21:30:00.000                 47.5000        7.20000             1107.00              213        87    -289         -620
+15-07-2000 22:30:00.000                 45.6000        5.70000             1089.00              213        87    -281         -420
+15-07-2000 23:30:00.000                 45.6000        9.70000             1079.00              213        87    -281         -661
+16-07-2000 00:30:00.000                 47.2000        8.10000             1030.00              283        77    -301         -261
+16-07-2000 01:30:00.000                 47.3000        2.10000             1012.00              283        77    -301         -135
+16-07-2000 02:30:00.000                 44.8000        1.30000             970.000              283        77    -279         -195
+16-07-2000 03:30:00.000                 40.3000        1.90000             949.000              283        60    -260         -208
+16-07-2000 04:30:00.000                 39.0000        2.80000             915.000              283        60    -233         -351
+16-07-2000 05:30:00.000                 37.2000        2.20000             883.000              283        60    -209         -266
+16-07-2000 06:30:00.000                 33.1000        1.20000             842.000              283        43    -197         -240
+16-07-2000 07:30:00.000                 29.5000        1.50000             806.000              283        43    -179         -207
+16-07-2000 08:30:00.000                 26.6000       0.800000             804.000              283        43    -175         -199
+16-07-2000 09:30:00.000                 24.3000       0.700000             816.000              283        47    -166         -236
+16-07-2000 10:30:00.000                 22.1000       0.700000             788.000              283        47    -157         -125
+16-07-2000 11:30:00.000                 20.3000        1.20000             790.000              283        47    -149         -106
+16-07-2000 12:30:00.000                 18.1000        2.20000             781.000              283        47    -143         -102
+16-07-2000 13:30:00.000                 14.3000        2.20000             772.000              283        47    -136         -127
+16-07-2000 14:30:00.000                 11.5000        1.00000             784.000              283        47    -138         -102
+16-07-2000 15:30:00.000                 9.70000       0.500000             770.000              283        30    -138          -85
+16-07-2000 16:30:00.000                 8.40000       0.600000             739.000              283        30    -132          -53
+16-07-2000 17:30:00.000                 7.50000       0.700000             736.000              283        30    -126          -49
+16-07-2000 18:30:00.000                 6.70000       0.700000             743.000              283        20    -125          -78
+16-07-2000 19:30:00.000                 5.70000       0.700000             724.000              283        20    -124          -63
+16-07-2000 20:30:00.000                 5.80000       0.500000             744.000              283        20    -121          -82
+16-07-2000 21:30:00.000                 5.60000       0.500000             734.000              283        17    -117          -70
+16-07-2000 22:30:00.000                 5.40000       0.500000             736.000              283        17    -117          -82
+16-07-2000 23:30:00.000                 5.60000       0.600000             704.000              283        17    -117          -70
+#  
+# Key Parameter and Survey data (labels K0,K1,K2) are preliminary browse data.
+# Generated by CDAWeb on: Mon Jun 11 11:13:46 2018

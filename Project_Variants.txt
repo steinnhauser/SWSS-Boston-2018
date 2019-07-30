@@ -1,0 +1,23 @@
+Interesting days for storms:
+.								march 1989
+Bastille day 					july 14, 2000
+haloween storm: 				oct 29-30 2003
+St patricks 1: 					march 17, 2013
+-''- 2: 						march 17, 2015
+galaxy 15 substorm 				april 5, 2010
+
+
+Instrument storytelling:
+Voyager 1 & 2					Outer solar system
+SOHO or STEREO 					Sun
+STEREO or ACE 					Solar wind
+GOES or THEMIS 					Magnetosphere
+Van Allen Probes 				Radiation belts
+Norwegian Satellite				Ionosphere
+
+
+Phenomena to chose from and theme area:
+Sunspots and corona hole 		Sun
+Solar wind sector changes		Solar wind
+Magnetic substorms				Magnetosphere
+Magnetic storms 				Magnetosphere
